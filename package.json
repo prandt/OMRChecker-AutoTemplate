@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
@@ -19,6 +19,7 @@
     "vuetify": "^3.1.14"
   },
   "devDependencies": {
+    "@types/pdfmake": "^0.2.2",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.3.0",
     "autoprefixer": "^10.4.14",
