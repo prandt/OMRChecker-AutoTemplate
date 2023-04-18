@@ -19,6 +19,7 @@ module.exports = {
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     "no-undef": "off",
+    "indent": ["error", 2],
   },
   parserOptions: {
     ecmaVersion: "latest"
