@@ -3,6 +3,6 @@
 </template>
 
 <script setup>
-import HomeComponent from '../components/HomeComponent.vue';
+import HomeComponent from "../components/HomeComponent.vue";
 
 </script>
